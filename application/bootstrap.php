@@ -120,6 +120,10 @@ App::route('/login', function(){
 
 });
 
+App::route('/category', function(){
+    App::render('category');
+});
+
 App::route('/', function(){
     
     App::render('index');
